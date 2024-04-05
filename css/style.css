@@ -1,0 +1,54 @@
+body {
+  color: #ffffff;
+}
+
+.main_body {
+  background: linear-gradient(to right, #000000, #00ff59);
+  color: #ffffff;
+}
+
+
+h1 {
+  margin: 50px 0;
+}
+
+.formulaImg {
+  width: clamp(200px, 50%, 480px);
+  border: solid 6px #083a1b;
+}
+
+input,
+button {
+  background-color: #1a7f33;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+::selection {
+  background: #660036;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #47ff5d;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+#AreaResult {
+  font-size: 28px;
+  color: #ff000d;
+}
+
+iframe {
+  width: 90vw;
+  border: none; 
+  user-select: none;
+}
